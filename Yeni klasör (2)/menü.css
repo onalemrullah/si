@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header" "main";
+    grid-template-rows: 1fr 5fr;
+}
+header{
+    grid-area: header;
+    border: 1px solid black;
+    height: 130px;
+}
+main{
+    grid-area: main;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+section{
+    height: 600px;
+    width: 400px;
+     border: 1px solid black;
+     margin: 40px;
+}
+section > div{
+    height: 500px;
+
+}
+section > div > img {
+    height: 500px;
+    width:400px;
+}
+.cont{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
